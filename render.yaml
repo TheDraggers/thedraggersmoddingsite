@@ -3,5 +3,5 @@ services:
     name: thedraggers-site
     env: dotnet
     buildCommand: "dotnet publish -c Release -o out"
-    startCommand: "dotnet out/DraggerWebMain.dll"
+    startCommand: "dotnet out/DraggerWebMain.Web.dll"
     plan: free
